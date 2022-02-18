@@ -1,0 +1,608 @@
+Index: TP8JPA/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP8JPA/.gitignore b/TP8JPA/.gitignore
+new file mode 100644
+--- /dev/null	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
++++ b/TP8JPA/.gitignore	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
+@@ -0,0 +1,1 @@
++/target/
+Index: TP8JPA/.idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP8JPA/.idea/.gitignore b/TP8JPA/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
++++ b/TP8JPA/.idea/.gitignore	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: TP8JPA/.idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP8JPA/.idea/compiler.xml b/TP8JPA/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
++++ b/TP8JPA/.idea/compiler.xml	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <annotationProcessing>
++      <profile default="true" name="Default" enabled="true" />
++      <profile name="Maven default annotation processors profile" enabled="true">
++        <sourceOutputDir name="target/generated-sources/annotations" />
++        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
++        <outputRelativeToContentRoot value="true" />
++        <module name="TP8JPA" />
++      </profile>
++    </annotationProcessing>
++  </component>
++</project>
+\ No newline at end of file
+Index: TP8JPA/.idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP8JPA/.idea/jarRepositories.xml b/TP8JPA/.idea/jarRepositories.xml
+new file mode 100644
+--- /dev/null	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
++++ b/TP8JPA/.idea/jarRepositories.xml	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RemoteRepositoriesConfiguration">
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Central Repository" />
++      <option name="url" value="https://repo.maven.apache.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Maven Central repository" />
++      <option name="url" value="https://repo1.maven.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="jboss.community" />
++      <option name="name" value="JBoss Community repository" />
++      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
++    </remote-repository>
++  </component>
++</project>
+\ No newline at end of file
+Index: TP8JPA/.idea/jpa-buddy.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP8JPA/.idea/jpa-buddy.xml b/TP8JPA/.idea/jpa-buddy.xml
+new file mode 100644
+--- /dev/null	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
++++ b/TP8JPA/.idea/jpa-buddy.xml	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="JpaBuddyIdeaProjectConfig">
++    <option name="defaultUnitInitialized" value="true" />
++  </component>
++</project>
+\ No newline at end of file
+Index: TP8JPA/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP8JPA/.idea/misc.xml b/TP8JPA/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
++++ b/TP8JPA/.idea/misc.xml	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" default="true" project-jdk-name="15" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: TP8JPA/.project
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP8JPA/.project b/TP8JPA/.project
+new file mode 100644
+--- /dev/null	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
++++ b/TP8JPA/.project	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
+@@ -0,0 +1,17 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<projectDescription>
++	<name>TP8JPA</name>
++	<comment></comment>
++	<projects>
++	</projects>
++	<buildSpec>
++		<buildCommand>
++			<name>org.eclipse.m2e.core.maven2Builder</name>
++			<arguments>
++			</arguments>
++		</buildCommand>
++	</buildSpec>
++	<natures>
++		<nature>org.eclipse.m2e.core.maven2Nature</nature>
++	</natures>
++</projectDescription>
+Index: TP8JPA/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP8JPA/pom.xml b/TP8JPA/pom.xml
+new file mode 100644
+--- /dev/null	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
++++ b/TP8JPA/pom.xml	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
+@@ -0,0 +1,89 @@
++<?xml version="1.0" encoding="UTF-8"?>
++
++<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++
++    <groupId>org.example</groupId>
++    <artifactId>TP8JPA</artifactId>
++    <version>1.0-SNAPSHOT</version>
++
++    <properties>
++        <maven.compiler.source>15</maven.compiler.source>
++        <maven.compiler.target>15</maven.compiler.target>
++        <hibernate.version>5.0.4.Final</hibernate.version>
++        <spring.version>5.3.13</spring.version>
++    </properties>
++    <dependencies>
++        <dependency>
++            <groupId>org.springframework</groupId>
++            <artifactId>spring-core</artifactId>
++            <version>${spring.version}</version>
++        </dependency>
++        <dependency>
++            <groupId>org.springframework</groupId>
++            <artifactId>spring-context</artifactId>
++            <version>${spring.version}</version>
++        </dependency>
++        <dependency>
++            <groupId>org.springframework</groupId>
++            <artifactId>spring-tx</artifactId>
++            <version>${spring.version}</version>
++        </dependency>
++        <dependency>
++            <groupId>org.springframework</groupId>
++            <artifactId>spring-orm</artifactId>
++            <version>${spring.version}</version>
++        </dependency>
++        <dependency>
++            <groupId>org.hibernate</groupId>
++            <artifactId>hibernate-core</artifactId>
++            <version>${hibernate.version}</version>
++        </dependency>
++        <dependency>
++            <groupId>org.hibernate</groupId>
++            <artifactId>hibernate-entitymanager</artifactId>
++            <version>${hibernate.version}</version>
++        </dependency>
++        <dependency>
++            <groupId>javax.transaction</groupId>
++            <artifactId>jta</artifactId>
++            <version>1.1</version>
++        </dependency>
++        <dependency>
++            <groupId>mysql</groupId>
++            <artifactId>mysql-connector-java</artifactId>
++            <version>5.1.6</version>
++        </dependency>
++        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
++        <dependency>
++            <groupId>org.projectlombok</groupId>
++            <artifactId>lombok</artifactId>
++            <version>1.18.20</version>
++            <scope>provided</scope>
++        </dependency>
++        <!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
++        <dependency>
++            <groupId>javax.xml.bind</groupId>
++            <artifactId>jaxb-api</artifactId>
++            <version>2.3.1</version>
++        </dependency>
++        <dependency>
++            <groupId>org.apache.logging.log4j</groupId>
++            <artifactId>log4j-api</artifactId>
++            <version>2.7</version>
++        </dependency>
++        <dependency>
++            <groupId>org.apache.logging.log4j</groupId>
++            <artifactId>log4j-core</artifactId>
++            <version>2.7</version>
++        </dependency>
++        <dependency>
++            <groupId>org.apache.logging.log4j</groupId>
++            <artifactId>log4j-slf4j-impl</artifactId>
++            <version>2.7</version>
++        </dependency>
++    </dependencies>
++
++</project>
+\ No newline at end of file
+Index: TP8JPA/src/main/java/Presentation/ClientController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP8JPA/src/main/java/Presentation/ClientController.java b/TP8JPA/src/main/java/Presentation/ClientController.java
+new file mode 100644
+--- /dev/null	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
++++ b/TP8JPA/src/main/java/Presentation/ClientController.java	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
+@@ -0,0 +1,33 @@
++package Presentation;
++
++import model.Client;
++import service.ClientService;
++
++public class ClientController {
++    ClientService service;
++
++    public void setService(ClientService service) {
++        this.service = service;
++    }
++
++    public ClientService getService() {
++        return service;
++    }
++
++
++    public void save(Client c) {
++        service.save(c);
++
++
++    }
++    public void modify(Client c){
++        service.modify(c);
++    }
++    public void removeById(long id){
++        service.removeById(id);
++    }
++    public Client getById(long id){
++        return service.getById(id);
++    }
++
++}
+Index: TP8JPA/src/main/java/applicationRunner.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP8JPA/src/main/java/applicationRunner.java b/TP8JPA/src/main/java/applicationRunner.java
+new file mode 100644
+--- /dev/null	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
++++ b/TP8JPA/src/main/java/applicationRunner.java	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
+@@ -0,0 +1,23 @@
++import Presentation.ClientController;
++import javassist.bytecode.ParameterAnnotationsAttribute;
++import model.Client;
++import org.springframework.context.ApplicationContext;
++import org.springframework.context.support.ClassPathXmlApplicationContext;
++
++
++
++public class applicationRunner {
++    public static void main(String[] args) {
++        ApplicationContext ctx = new ClassPathXmlApplicationContext("spring.xml");
++        ClientController ctrl = (ClientController) ctx.getBean("cont1");
++
++
++        ctrl.save(new Client("OMAR"));
++        ctrl.save(new Client("SIHAM"));
++        ctrl.save(new Client("AHMED"));
++        ctrl.save(new Client("FARAH"));
++
++        ctrl.removeById(1L);
++
++    }
++}
+Index: TP8JPA/src/main/java/dao/Clientdao.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP8JPA/src/main/java/dao/Clientdao.java b/TP8JPA/src/main/java/dao/Clientdao.java
+new file mode 100644
+--- /dev/null	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
++++ b/TP8JPA/src/main/java/dao/Clientdao.java	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
+@@ -0,0 +1,10 @@
++package dao;
++
++import model.Client;
++
++public interface Clientdao {
++    Client save(Client c);
++    Client update(Client c);
++    void deleteById(long idClient);
++    Client findById(long idClient);
++}
+Index: TP8JPA/src/main/java/dao/ClientdaoImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP8JPA/src/main/java/dao/ClientdaoImpl.java b/TP8JPA/src/main/java/dao/ClientdaoImpl.java
+new file mode 100644
+--- /dev/null	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
++++ b/TP8JPA/src/main/java/dao/ClientdaoImpl.java	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
+@@ -0,0 +1,40 @@
++package dao;
++
++import model.Client;
++
++import javax.persistence.EntityManager;
++import javax.persistence.EntityManagerFactory;
++import javax.persistence.Persistence;
++
++public class ClientdaoImpl implements Clientdao{
++    EntityManagerFactory emf= Persistence.createEntityManagerFactory("unit_clients");
++    EntityManager em=emf.createEntityManager();
++    @Override
++    public Client save(Client c) {
++
++        em.getTransaction().begin();
++        em.persist(c);
++        em.getTransaction().commit();
++
++
++        return c;
++    }
++
++    @Override
++    public Client update(Client c) {
++
++        return c;
++    }
++
++    @Override
++    public void deleteById(long idClient) {
++        em.getTransaction().begin();
++        Client clientInDataBase = em.find(Client.class,idClient);
++        em.remove(clientInDataBase);
++        em.getTransaction().commit();
++    }
++    @Override
++    public Client findById(long idClient) {
++        return em.find(Client.class,idClient);
++    }
++}
+Index: TP8JPA/src/main/java/model/Client.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP8JPA/src/main/java/model/Client.java b/TP8JPA/src/main/java/model/Client.java
+new file mode 100644
+--- /dev/null	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
++++ b/TP8JPA/src/main/java/model/Client.java	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
+@@ -0,0 +1,39 @@
++package model;
++
++import lombok.Getter;
++import lombok.Setter;
++
++import javax.persistence.Entity;
++import javax.persistence.GeneratedValue;
++import javax.persistence.GenerationType;
++import javax.persistence.Id;
++
++@Getter
++@Setter
++@Entity(name = "TClients")
++
++public class Client {
++    @Id
++    @GeneratedValue(strategy = GenerationType.IDENTITY)
++
++    public long id ;
++    public String name;
++    public  Client(String name)
++    {
++        this.id=id;
++        this.name=name;
++
++    }
++    public  Client(long l, String siham)
++    {
++
++    }
++
++    @Override
++    public String toString() {
++        return "Client{" +
++                "id=" + id +
++                ", name='" + name + '\'' +
++                '}';
++    }
++}
+Index: TP8JPA/src/main/java/service/ClientService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP8JPA/src/main/java/service/ClientService.java b/TP8JPA/src/main/java/service/ClientService.java
+new file mode 100644
+--- /dev/null	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
++++ b/TP8JPA/src/main/java/service/ClientService.java	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
+@@ -0,0 +1,12 @@
++package service;
++
++
++import model.Client;
++
++public interface ClientService {
++
++    Client save(Client c);
++    Client modify(Client c);
++    void removeById(long id);
++    Client getById(long id);
++}
+\ No newline at end of file
+Index: TP8JPA/src/main/java/service/ClientServiceImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP8JPA/src/main/java/service/ClientServiceImpl.java b/TP8JPA/src/main/java/service/ClientServiceImpl.java
+new file mode 100644
+--- /dev/null	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
++++ b/TP8JPA/src/main/java/service/ClientServiceImpl.java	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
+@@ -0,0 +1,38 @@
++package service;
++
++import dao.Clientdao;
++import dao.ClientdaoImpl;
++import model.Client;
++
++public class ClientServiceImpl implements ClientService{
++    Clientdao dao ;
++
++    public void setDao(Clientdao dao) {
++        this.dao = dao;
++    }
++
++    public Clientdao getDao() {
++        return dao;
++    }
++
++    @Override
++    public Client save(Client c) {
++
++
++        return  dao.save(c);
++    }
++
++    public Client modify(Client c) {
++        return dao.update(c);
++    }
++
++    @Override
++    public void removeById(long id) {
++        dao.deleteById(id);
++
++    }
++    @Override
++    public Client getById(long id) {
++        return dao.findById(id);
++    }
++}
+Index: TP8JPA/src/main/resources/META-INF/log4j2.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/TP8JPA/src/main/resources/META-INF/log4j2.properties b/TP8JPA/src/main/resources/META-INF/log4j2.properties
+new file mode 100644
+--- /dev/null	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
++++ b/TP8JPA/src/main/resources/META-INF/log4j2.properties	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
+@@ -0,0 +1,25 @@
++Extra logging related to initialization of Log4j
++# Set to debug or trace if log4j initialization is failing
++status = warn
++# Name of the configuration
++name = ConsoleLogConfigDemo
++# Console appender configuration
++appender.console.type = Console
++appender.console.name = consoleLogger
++appender.console.layout.type = PatternLayout
++appender.console.layout.pattern = %d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L %m%n
++# RollingFileAppender will print logs in file which can be rotated based
++on time or size
++appender.rolling.type = RollingFile
++appender.rolling.name = fileLogger
++appender.rolling.fileName= app.log
++appender.rolling.filePattern= ${basePath}app_%d{yyyyMMdd}.log.gz
++appender.rolling.layout.type = PatternLayout
++appender.rolling.layout.pattern = %d{yyyy-MM-dd HH:mm:ss.SSS} %level [%t]
++[%c] [%M] [%l] - %msg%n
++appender.rolling.policies.type = Policies
++# Root logger level
++rootLogger.level = debug
++# Root logger referring to console appender
++rootLogger.appenderRef.stdout.ref = consoleLogger
++rootLogger.appenderRef.rolling.ref = fileLogger
+\ No newline at end of file
+Index: TP8JPA/src/main/resources/META-INF/persistence.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP8JPA/src/main/resources/META-INF/persistence.xml b/TP8JPA/src/main/resources/META-INF/persistence.xml
+new file mode 100644
+--- /dev/null	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
++++ b/TP8JPA/src/main/resources/META-INF/persistence.xml	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
+@@ -0,0 +1,24 @@
++<persistence xmlns="http://java.sun.com/xml/ns/persistence"
++             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
++http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
++             version="2.0">
++    <persistence-unit name="unit_clients">
++        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
++        <properties>
++            <property name="javax.persistence.jdbc.url"
++                      value="jdbc:mysql://localhost:3306/pfe_base?createDatabaseIfNotExist=true" />
++            <property name="javax.persistence.jdbc.user" value="root" />
++            <property name="javax.persistence.jdbc.password" value="root"
++            />
++            <property name="javax.persistence.jdbc.driver"
++                      value="com.mysql.jdbc.Driver" />
++            <property name="hibernate.show_sql" value="true"/>
++            <property name="hibernate.format_sql" value="true" />
++            <property name="hibernate.hbm2ddl.auto" value="create" />
++            <property name="hibernate.dialect"
++                      value="org.hibernate.dialect.MySQL5Dialect" />
++            <property name="hibernate.hbm2ddl.auto" value="update" />
++        </properties>
++    </persistence-unit>
++</persistence>
+\ No newline at end of file
+Index: TP8JPA/src/main/resources/spring.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP8JPA/src/main/resources/spring.xml b/TP8JPA/src/main/resources/spring.xml
+new file mode 100644
+--- /dev/null	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
++++ b/TP8JPA/src/main/resources/spring.xml	(revision 608b919048dcff027501d7f7817ab6cdc83a35ac)
+@@ -0,0 +1,12 @@
++<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
++        "https://www.springframework.org/dtd/spring-beans-2.0.dtd">
++<beans>
++
++    <bean id="cont1"  class="Presentation.ClientController">
++        <property name="service" ref="S1"/>
++    </bean>
++    <bean id="S1"  class="service.ClientServiceImpl">
++    <property name="dao" ref="d1"/>
++    </bean>
++    <bean id="d1"  class="dao.ClientdaoImpl"/>
++</beans>
